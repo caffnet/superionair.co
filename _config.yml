@@ -59,8 +59,8 @@ exclude:     []
 timezone:    pdt
 
 # Show future posts
-future:      false
-show_drafts: nil
+future:      true
+show_drafts: true
 limit_posts: 0
 highligher:    true
 
