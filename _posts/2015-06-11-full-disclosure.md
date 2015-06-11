@@ -4,7 +4,7 @@ category: blog
 title: Full Disclosure
 subtitle: "Before we get to the goods"
 cover_image: skyking1.png
-excerpt: "Before we start talking about the project - let's clear the air and understand who is running these tests.""
+excerpt: "Before we start talking about the project - let's clear the air and understand who is running these tests."
 author:
   name: John Stauffacher
   twitter: g33kspeed
@@ -12,5 +12,4 @@ author:
   bio: Defensive Security Expert
   image: js.png
 ---
-{% include JB/setup %}
 For
