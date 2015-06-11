@@ -9,6 +9,6 @@ author:
   twitter: g33kspeed
   gplus: 115459133183253104599
   bio: Defensive Security Expert
-  image: js.png
+  image: js.jpg
 ---
 For
