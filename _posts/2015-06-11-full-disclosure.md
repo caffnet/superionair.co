@@ -1,6 +1,5 @@
 ---
 layout: post
-category: blog
 title: Full Disclosure
 subtitle: "Before we get to the goods"
 cover_image: skyking1.png
