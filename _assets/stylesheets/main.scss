@@ -4,7 +4,7 @@
 $font: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 /* Font for headings */
-$fontheadings: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$fontheadings: "american_captain", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 /* Text colors */
 $text: #21272d;
@@ -20,3 +20,13 @@ $accent: #2077b2;
 @import "icons";
 @import "syntax";
 @import "responsive";
+@import "_mixins";
+@include register-font('defused');
+@include register-font('american_captain');
+/* https://gist.github.com/WhatIsHeDoing/3179370 */
+.defused {
+	@include use-registered-font('defused');
+}
+.american_captain {
+	@include use-registered-font('american_captain');
+}

@@ -81,7 +81,7 @@ host:        0.0.0.0
 port:        81
 baseurl:     /
 lsi:         false
-gems:	[jekyll-assets, jekyll_figure, jekyll-picture]
+gems:	[jekyll-assets, jekyll_figure]
 maruku:
   use_tex:    false
   use_divs:   false
@@ -113,22 +113,6 @@ kramdown:
 
 redcloth:
   hard_breaks: true
-#
-# jekyll-picture:
-#
-picture:
-  source: "assets/images/_fullsize"
-  output: "generated"
-  markup: "picture"
-  presets:
-    default:
-      ppi: [1,1.5,2]
-      source-medium: 
-        medium: "(min-width: 40em)"
-        width: "600"
-        height: "300"
-      source_default:
-        width: "300"
 #
 # jekyll-assets: see more at https://github.com/ixti/jekyll-assets
 #
