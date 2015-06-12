@@ -73,6 +73,7 @@ paginate: 10
 markdown:      redcarpet
 markdown_ext:  markdown,mkd,mkdn,md
 textile_ext:   textile
+extensions: ["smart"]
 
 excerpt_separator: "<!-- more -->"
 
