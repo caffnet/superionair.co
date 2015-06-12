@@ -86,9 +86,9 @@ author:
     [+] Requests Done: 2022
     [+] Memory used: 38.754 MB
     [+] Elapsed time: 00:04:19
-    
+
 ### Webserver 
-The team at Superion Air decided to go ahead and rely on Nginx for their main webserving needs. Nginx is quick, compact and doesn't have the memory footprint of Apache. The nginx config is listed below and available [here]({% postfile superion-air-nginx.conf }) 
+The team at Superion Air decided to go ahead and rely on Nginx for their main webserving needs. Nginx is quick, compact and doesn't have the memory footprint of Apache. The nginx config is listed below and available [here]({% postfile superion-air-nginx.conf %}) 
 
     user  nginx;
     worker_processes  1;
