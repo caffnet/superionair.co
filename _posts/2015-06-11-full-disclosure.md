@@ -48,8 +48,8 @@ The various other software used during these tests will be listed on their respe
 #Thanks
 <span class="firstLetter">P</span>rojects like this don't go down with a lot of help and contributions from many. During the course of this engagement the following companies and indivudals helped me out in one way or another:
 
-| Thank You                                                                                                    |                                                              |
-|-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-|Caffeinated Networks &nbsp; &nbsp; [{% image cafnet-logo.png alt="Caffeinated Networks Logo" width=180 height=180 %}](http://www.caffeinatednetworks.com) &nbsp; &nbsp; | story  |
-|OJ (@thecolonial) &nbsp; &nbsp; [{% image beyond-binary-logo.png alt="Beyond Binary Logo" width=180 height=41 %}](https://beyondbinary.io) &nbsp; &nbsp; | story |
-|LoadImpact &nbsp; &nbsp; [{% image loadimpact-logo.png alt="Load Impact Logo" width=180 height=29 %}](http://www.loadimpact.com) &nbsp; &nbsp; | story |
+| Thank You                        |                                                                          |                                                               |
+|----------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
+|Caffeinated Networks &nbsp; &nbsp;| [{% image cafnet-logo.png alt="Caffeinated Networks Logo" width=180 height=180 %}](http://www.caffeinatednetworks.com) &nbsp; &nbsp; | story  |
+|OJ (@thecolonial) &nbsp; &nbsp; |[{% image beyond-binary-logo.png alt="Beyond Binary Logo" width=180 height=41 %}](https://beyondbinary.io) &nbsp; &nbsp; | story |
+|LoadImpact &nbsp; &nbsp; |[{% image loadimpact-logo.png alt="Load Impact Logo" width=180 height=29 %}](http://www.loadimpact.com) &nbsp; &nbsp; | story |
