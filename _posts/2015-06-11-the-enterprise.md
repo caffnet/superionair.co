@@ -15,6 +15,7 @@ author:
 
 ## The Web Application
 <span class="firstLetter">T</span>he key piece of their infrastructure is their website. This website runs under the WordPress CMS platform, and is the main interface between Superion Air and their customers. This Website is where Superion Air books travel for their customers, and updates their pilot schedules and maintenance operations. This website is key to Superion Air, and their current Cloud expense is making management think that they may have to start raising prices. They need to take down the bot traffic to get their Cloud expenses under control. A wpscan report is listed below and available here:
+
     [+] URL: https://client.superionair.co/
     [+] Started: Fri Jun 05 12:51:58 2015
 
