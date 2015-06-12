@@ -50,5 +50,5 @@ The various other software used during these tests will be listed on their respe
 
 | Thank You                                                                                                    |                                                              |
 |-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-|Caffeinated Networks &nbsp; &nbsp; [{% image cafnet-logo.png alt="Caffeinated Networks Logo" %}](http://www.caffeinatednetworks.com) &nbsp; &nbsp; | story  |
-|OJ (@thecolonial) &nbsp; &nbsp; [{% image beyond-binary-logo.png alt="Beyond Binary Logo"  %}](https://beyondbinary.io) &nnsp; &nbsp; | story |
+|Caffeinated Networks &nbsp; &nbsp; [{% image cafnet-logo.png alt="Caffeinated Networks Logo" width=180 height=180 %}](http://www.caffeinatednetworks.com) &nbsp; &nbsp; | story  |
+|OJ (@thecolonial) &nbsp; &nbsp; [{% image beyond-binary-logo.png alt="Beyond Binary Logo" width=180 height=41 %}](https://beyondbinary.io) &nnsp; &nbsp; | story |
