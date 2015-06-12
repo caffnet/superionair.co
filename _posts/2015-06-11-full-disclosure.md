@@ -46,4 +46,9 @@ author:
 The various other software used during these tests will be listed on their respective pages. Any premium services beyond trial software used within it's trial limitations was purchased by the researcher.
 
 #Thanks
-<span class="firstLetter">P</span>rojects like this don't go down with a lot of help and contributions from many. 
+<span class="firstLetter">P</span>rojects like this don't go down with a lot of help and contributions from many. During the course of this engagement the following companies and indivudals helped me out in one way or another:
+
+| Thank You                                                                                                    |                                                              |
+|-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|Caffeinated Networks &nbsp; &nbsp; {% image cafnet-logo.png alt="Caffeinated Networks Logo" %} &nbsp; &nbsp; | story                                                         |
+|OJ (@thecolonial) | story |
