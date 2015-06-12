@@ -28,16 +28,20 @@ h1, h2, h3, h4, h5 {
 }
 h1::first-letter {
 	font-family:$defused;
-	font-size:$head_size_200;
-	color:$head_color;
+	font-size:$title_size_110;
+	color:$title_color;
 }
 h2::first-letter {
 	font-family:$defused;
 	font-size:$head_size_200;
 	color:$head_color;
 }
-
-h1, h2 {
+h1 {
+    font-family:$fontheadings;
+    color:$title_color;
+    font-size:$title_size_90;
+}
+h2, h3 {
     font-family:$fontheadings;
     color:$head_color;
 }
