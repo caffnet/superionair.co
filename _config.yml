@@ -70,7 +70,7 @@ permalink:     pretty
 paginate_path: 'page:num'
 paginate: 10
 
-markdown:      kramdown
+markdown:      redcarpet
 markdown_ext:  markdown,mkd,mkdn,md
 textile_ext:   textile
 
@@ -81,7 +81,7 @@ host:        0.0.0.0
 port:        81
 baseurl:     /
 lsi:         false
-gems:	[jekyll-assets, jekyll_figure]
+gems:	[jekyll-assets, jekyll_figure, jekyll-picture]
 maruku:
   use_tex:    false
   use_divs:   false
