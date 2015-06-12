@@ -2,7 +2,8 @@
 
 /* Bodytext font */
 $font: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-
+$defused: "defused";
+$american_captain: "american_captain";
 /* Font for headings */
 $fontheadings: "american_captain", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
@@ -24,9 +25,9 @@ $accent: #2077b2;
 @include register-font('defused');
 @include register-font('american_captain');
 /* https://gist.github.com/WhatIsHeDoing/3179370 */
-.defused {
-	@include use-registered-font('defused');
+.firstLetter {
+	@include use-registered-font($defused);
 }
-.american_captain {
-	@include use-registered-font('american_captain');
+.topicHeader {
+	@include use-registered-font($american_captain);
 }
