@@ -26,6 +26,8 @@ $accent: #2077b2;
 @import "icons";
 @import "syntax";
 @import "responsive";
+@import "neat";
+@import "compass";
 @import "_mixins";
 @include register-font('defused');
 @include register-font('american_captain');
