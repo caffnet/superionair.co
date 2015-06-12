@@ -73,7 +73,6 @@ paginate: 10
 markdown:      redcarpet
 markdown_ext:  markdown,mkd,mkdn,md
 textile_ext:   textile
-extensions: ["smart"]
 
 excerpt_separator: "<!-- more -->"
 
@@ -94,7 +93,7 @@ rdiscount:
   extensions: []
 
 redcarpet:
-  extensions: []
+  extensions: [smart, no_intra_emphasis, tables, strikethrough, lax_spacing, superscript]
 
 kramdown:
   auto_ids: true
