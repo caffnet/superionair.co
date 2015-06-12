@@ -1,15 +1,12 @@
-$font_dir: '/assets/fonts/';
- 
-/* _simple-font-url('Chunkfive', 'eot'); */
 @function _simple-font-url($name, $extension)
 {
-    @return url($font_dir + $name + '-webfont.' + $extension);
+    @return url(asset_path($name + '-webfont.' + $extension));
 }
  
 /* _full-font-url('Chunkfive', 'woff', 'embedded-opentype', '?#iefix'); */
 @function _full-font-url($name, $extension, $format, $hash: '')
 {
-    @return url($font_dir + $name + '/' + $name + '-webfont.' + $extension + $hash) format($format);
+    @return url(asset_path($name + '-webfont.' + $extension + $hash)) format($format);
 }
  
 /* register-font('Chunkfive'); */
