@@ -16,6 +16,8 @@ author:
 ## The Web Application
 <span class="firstLetter">T</span>he key piece of their infrastructure is their website. This website runs under the WordPress CMS platform, and is the main interface between Superion Air and their customers. This Website is where Superion Air books travel for their customers, and updates their pilot schedules and maintenance operations. This website is key to Superion Air, and their current Cloud expense is making management think that they may have to start raising prices. They need to take down the bot traffic to get their Cloud expenses under control. A wpscan report is listed below and available [here]({% postfile client-superionair-co-wpscan.txt %}) :
 
+### WordPress
+
     [+] URL: https://client.superionair.co/
     [+] Started: Fri Jun 05 12:51:58 2015
 
@@ -84,4 +86,74 @@ author:
     [+] Requests Done: 2022
     [+] Memory used: 38.754 MB
     [+] Elapsed time: 00:04:19
+    
+### Webserver 
+The team at Superion Air decided to go ahead and rely on Nginx for their main webserving needs. Nginx is quick, compact and doesn't have the memory footprint of Apache. The nginx config is listed below and available [here]({% postfile superion-air-nginx.conf }) 
+
+    user  nginx;
+    worker_processes  1;
+
+    error_log  /var/log/nginx/error.log warn;
+    pid        /var/run/nginx.pid;
+
+
+    events {
+        worker_connections  1024;
+    }
+
+
+    http {
+        include       /etc/nginx/mime.types;
+        default_type  application/octet-stream;
+
+        log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+                          '$status $body_bytes_sent "$http_referer" '
+                          '"$http_user_agent" "$http_x_forwarded_for"';
+
+        access_log  /var/log/nginx/access.log  main;
+        client_max_body_size 50M;
+        sendfile        on;
+        #tcp_nopush     on;
+
+        keepalive_timeout  65;
+
+        #gzip  on
+        server {
+            listen       443 ssl;
+            server_name  client.superionair.co;
+
+            ssl_certificate      /etc/nginx/cert.pem;
+            ssl_certificate_key  /etc/nginx/cert.key;
+
+            ssl_session_cache shared:SSL:1m;
+            ssl_session_timeout  5m;
+
+            ssl_ciphers  HIGH:!aNULL:!MD5;
+            ssl_prefer_server_ciphers   on;
+            access_log  /var/log/nginx/host.ssl.access.log  main;
+            root /opt/superionair-test/wordpress;
+            index index.php index.html index.htm;
+            location / {
+             try_files $uri $uri/ /index.php?$args;
+            }
+            location ~ \.php$ {
+                fastcgi_split_path_info ^(.+?\.php)(/.*)$;
+                if ( !-f $document_root$fastcgi_script_name) {
+                        return 404;
+                }
+                fastcgi_pass   127.0.0.1:9000;
+                fastcgi_index  index.php;
+                fastcgi_param  SCRIPT_FILENAME $document_root$fastcgi_script_name;
+                include        fastcgi_params;
+            }
+
+        
+        }
+    }
+
+
+
+
+### Database Backend
+The backend database is served by a MySQL 
 
