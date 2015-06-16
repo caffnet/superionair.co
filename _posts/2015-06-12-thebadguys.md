@@ -24,7 +24,7 @@ author:
 | Curl                    | Custom script written with the Curl utility                         | [{% image curl-logo.jpg %}](http://curl.haxx.se/)       |
 
 ###Sample PhantomJS Script
-
+```javascript
     var system = require('system');
     var args = system.args;
     var page = require('webpage').create();
@@ -35,8 +35,7 @@ author:
        }
        phantom.exit();
     });
-
-
+```
 
 ##Services
 <span class="firstLetter">S</span>ervices represent a more sophisticated Bot infrastructure. With the exception of CyberGhost the services below were used to execute complex scripts as well as provide load testing and DDOS capabilities. Cyber Ghost was used to provide a method to source traffic from different countries and analyze the GeoFence capabilities of the products.
@@ -51,7 +50,7 @@ author:
 
 ###Test Case Scripts
 * <span class="firstLetter">S</span>cenario #1: Extreme load
-
+```
     http.page_start("Page 1")
     local response = http.request_batch({
         {"GET", "https://$HOST"},
@@ -63,9 +62,9 @@ author:
     http.page_end("Page 1")
 
     client.sleep(math.random(20, 40))
-
+```
 * <span class="firstLetter">S</span>cenario #2: Failed Login Attempts
-    
+```   
          local users = { 
              { username = 'joe', password = 'secret' }, 
              { username = 'bill', password = 'secret2' }, 
@@ -96,10 +95,11 @@ author:
          local search_for = "Welcome, " .. username 
          if string.find(response_body, search_for) == nil then 
              log.info('Failed to logon as user: ' .. username .. '--' .. response_body) 
-         end 
+         end
+ ```
 
 * <span class="firstLetter">S</span>cenario #3: Flight Searching 
-    
+```    
     http.request_batch({
     	{"GET", "https://$HOST/wp-content/themes/theme1770/images/datepicker_img/ui-bg_glass_100_f6f6f6_1x400.png", auto_decompress=true}
     })
@@ -147,6 +147,7 @@ author:
     http.page_end("Page 1")
 
     client.sleep(math.random(20, 40))
+```
 
 * Each test case was run through: 
   + default User Agent: LoadImpactRload/3.0.8 (Load Impact; http://loadimpact.com);
@@ -170,9 +171,9 @@ author:
 ###Commercial Application Configuration
 
 <span class="firstLetter">W</span>PScan was executed with the following:
-
+```
     ./wpscan.rb -r -v --url $HOST --wordlist /usr/share/SecLists/Passwords/darkc0de.txt --username admin
-
+```
 <span class="firstLetter">A</span>utomation Anywhere was configured with the following:
 * Task #1
 {% image automation_anywhere_config.png %}
