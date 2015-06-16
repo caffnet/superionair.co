@@ -18,7 +18,7 @@ author:
 |Script                   |Info                                                                 |URL                                                      |
 |-------------------------|---------------------------------------------------------------------|---------------------------------------------------------|
 | Perl - LWP              | Custom script written in Perl using the LWP backend                 | [{% image perl-logo.jpg %}](www.perl.org)               |
-| Perl - WWW::Mechanize   | Custom script written in Perl using the WWW::Mechanize backend      | [{% image perl-logo.jpg %}](www.perl.org)               |
+| Perl - WWW::Mechanize &nbsp; &nbsp; &nbsp;  | Custom script written in Perl using the WWW::Mechanize backend      | [{% image perl-logo.jpg %}](www.perl.org)               |
 | PhantomJS               | Custom script written in JavaScript utilizing the PhantomJS library | [{% image phantomjs-logo.png %}](http://phantomjs.org/) |
 | Curl                    | Custom script written with the Curl utility                         | [{% image curl-logo.jpg %}](http://curl.haxx.se/)       |
 
@@ -34,6 +34,6 @@ author:
 
 ##Commercial Applications
 
-|Application          |Info                                    |Url                                                                          | 
-|---------------------|----------------------------------------|-----------------------------------------------------------------------------|
-| Automation Anywhere | Commercial screen scraping application | [% image automation-anywhere-logo.jpeg](https://www.automationanywhere.com) |
+|Application          |Info                                    |Url                                                                              | 
+|---------------------|----------------------------------------|---------------------------------------------------------------------------------|
+| Automation Anywhere | Commercial screen scraping application | [{% image automation-anywhere-logo.jpeg %}](https://www.automationanywhere.com) |
