@@ -1,7 +1,7 @@
 
 ---
 layout: post
-title: The Enterprise
+title: "The Enterprise"
 subtitle: "So what's under the hood at Superion Air"
 cover_image: dc3-i-logo.png
 excerpt: "Let's take a peak under the hood at Superion Air"
@@ -12,13 +12,15 @@ author:
   bio: Defensive Security Expert
   image: js.jpg
 ---
+
+##Superion Air
 <span class="firstLetter">T</span>he staff at Superion Air have done quite a bit with not a lot for some time. Their main infrastructure features a cloud enabled application, and a database server. All of these run on a cluster of VMWare ESX 5.5 servers. These servers are aging Dell 2950 servers with dual quad core processors. Two of the machines have 16GB of ram the other has 32GB. Their storage is provided by a commodity iSCSI array.
 
 ## The Web Application
 <span class="firstLetter">T</span>he key piece of their infrastructure is their website. This website runs under the WordPress CMS platform, and is the main interface between Superion Air and their customers. This Website is where Superion Air books travel for their customers, and updates their pilot schedules and maintenance operations. This website is key to Superion Air, and their current Cloud expense is making management think that they may have to start raising prices. They need to take down the bot traffic to get their Cloud expenses under control. A wpscan report is listed below and available [here]({% postfile client-superionair-co-wpscan.txt %}) :
 
 ### WordPress
-
+```
     [+] URL: https://client.superionair.co/
     [+] Started: Fri Jun 05 12:51:58 2015
 
@@ -87,10 +89,10 @@ author:
     [+] Requests Done: 2022
     [+] Memory used: 38.754 MB
     [+] Elapsed time: 00:04:19
-
+```
 ### Webserver 
 <span class="firstLetter">T</span>he team at Superion Air decided to go ahead and rely on Nginx for their main webserving needs. Nginx is quick, compact and doesn't have the memory footprint of Apache. The nginx config is listed below and available [here]({% postfile superion-air-nginx.conf %}) 
-
+```
     user  nginx;
     worker_processes  1;
 
@@ -152,7 +154,7 @@ author:
         }
     }
 
-
+```
 
 
 ### Database Backend
