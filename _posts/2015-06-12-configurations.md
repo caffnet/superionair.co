@@ -52,7 +52,7 @@ author:
 
 <span class="firstLetter">T</span>he Content Distribution section was configured to _NOT_ cache any content on the Distil Appliance. Just like the F5 ASM configuration, the device will not be caching any content to make our testing easier.
 
-* {% image distil_content_cache %}
+* {% image distil_content_cache.png %}
 
 
 
