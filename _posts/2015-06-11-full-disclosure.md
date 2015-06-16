@@ -48,9 +48,13 @@ The various other software used during these tests will be listed on their respe
 #Thanks
 <span class="firstLetter">P</span>rojects like this don't go down with a lot of help and contributions from many. During the course of this engagement the following companies and indivudals helped me out in one way or another:
 
-|**Thank You**                     |                                                                          |                                                               |
-|----------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
-|Caffeinated Networks &nbsp; &nbsp;| [{% image cafnet-logo.png alt="Caffeinated Networks Logo" width=180 height=180 %}](http://www.caffeinatednetworks.com) &nbsp; &nbsp; | <span class="firstLetter">T</span>he guys at CafNet went out of their way to help me out with this project. At one point the team was able to overnight a barn find server from across the US to provide the power needed to run these tests. If you get a chance hit these guys up. Send an email out to [Matt](mailto:matt@cafnet.in?subject=SuperionAir) and let him know what you think. The team at CafNet are awesome at putting together complex networking and infrastructure projects. I don't think I could have pulled this test off without their help and resources. Their website doesn't do justice all the work these guys continue to pull off. |
-|OJ (@thecolonial) &nbsp; &nbsp; |[{% image beyond-binary-logo.png alt="Beyond Binary Logo" width=180 height=41 %}](https://beyondbinary.io) &nbsp; &nbsp; | Not only has Juice provided countless hours of entertainement keeping me awake at night. He also is the mastermind behind [GoBuster](https://github.com/OJ/gobuster/) an awesome tool for HTTP fuzzing and testing.  |
-|LoadImpact &nbsp; &nbsp; |[{% image loadimpact-logo.png alt="Load Impact Logo" width=180 height=29 %}](http://www.loadimpact.com) &nbsp; &nbsp; | LoadImpact is one of the few load testing tools that is extremely flexible, low cost and easy to use. This tool saved us hours in configuration and testing time. |
-| F5, Imperva, Distil | | A huge thanks out to the vendors. | 
+##Caffeinated Networks [{% image cafnet-logo.png alt="Caffeinated Networks Logo" width=180 height=180 %}](http://www.caffeinatednetworks.com) &nbsp; &nbsp; 
+<span class="firstLetter">T</span>he guys at CafNet went out of their way to help me out with this project. At one point the team was able to overnight a barn find server from across the US to provide the power needed to run these tests. If you get a chance hit these guys up. Send an email out to [Matt](mailto:matt@cafnet.in?subject=SuperionAir) and let him know what you think. The team at CafNet are awesome at putting together complex networking and infrastructure projects. I don't think I could have pulled this test off without their help and resources. Their website doesn't do justice all the work these guys continue to pull off.
+
+##OJ (@thecolonial) at [{% image beyond-binary-logo.png alt="Beyond Binary Logo" width=180 height=41 %}](https://beyondbinary.io) 
+<span class="firstLetter">N</span>ot only has OJ provided countless hours of entertainement keeping me awake at night. He also is the mastermind behind [GoBuster](https://github.com/OJ/gobuster/) an awesome tool for HTTP fuzzing and testing. 
+
+##LoadImpact [{% image loadimpact-logo.png alt="Load Impact Logo" width=180 height=29 %}](http://www.loadimpact.com) 
+<span class="firstLetter">L</span>oadImpact is one of the few load testing tools that is extremely flexible, low cost and easy to use. This tool saved us hours in configuration and testing time. 
+##The Vendors
+F5, Imperva, Distil: A huge thanks out to the vendors. 
