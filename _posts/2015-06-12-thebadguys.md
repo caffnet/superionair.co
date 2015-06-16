@@ -13,7 +13,7 @@ author:
 ---
 <span class="firstLetter">T</span>he staff at Superion Air works hard day and day out to keep their company flying high. We decided to dip into our bag of tricks and come up with some formidable badguys that will put these devices through their places.
 
-* Scripts
+##Scripts
 
 |Script                   |Info                                                                 |URL                                                      |
 |-------------------------|---------------------------------------------------------------------|---------------------------------------------------------|
@@ -22,7 +22,7 @@ author:
 | PhantomJS               | Custom script written in JavaScript utilizing the PhantomJS library | [{% image phantomjs-logo.png %}](http://phantomjs.org/) |
 | Curl                    | Custom script written with the Curl utility                         | [{% image curl-logo.jpg %}](http://curl.haxx.se/)       |
 
-* Services
+##Services
 
 |Service                  |Info                              |URL                                                                            |
 |-------------------------|----------------------------------|-------------------------------------------------------------------------------|
@@ -32,7 +32,7 @@ author:
 | Cyber Ghost             | Commercial VPN Provider          | [{% image cyberghost-logo.png %}](http://www.cyberghostvpn.com/en_us)         |
 | VDOS Stresser           | Commercial Load Testing Tool     | [https://vdos-s.com/stresser/index.php](https://vdos-s.com/stresser/index.php)|
 
-* Commercial Applications
+##Commercial Applications
 
 |Application          |Info                                    |Url                                                                          | 
 |---------------------|----------------------------------------|-----------------------------------------------------------------------------|
