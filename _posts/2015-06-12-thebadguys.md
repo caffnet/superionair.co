@@ -50,7 +50,7 @@ author:
 
 ###Test Case Scripts
 * <span class="firstLetter">S</span>cenario #1: Extreme load
-```
+```lua
     http.page_start("Page 1")
     local response = http.request_batch({
         {"GET", "https://$HOST"},
@@ -64,7 +64,7 @@ author:
     client.sleep(math.random(20, 40))
 ```
 * <span class="firstLetter">S</span>cenario #2: Failed Login Attempts
-```   
+```lua   
          local users = { 
              { username = 'joe', password = 'secret' }, 
              { username = 'bill', password = 'secret2' }, 
@@ -99,7 +99,7 @@ author:
  ```
 
 * <span class="firstLetter">S</span>cenario #3: Flight Searching 
-```    
+```lua    
     http.request_batch({
     	{"GET", "https://$HOST/wp-content/themes/theme1770/images/datepicker_img/ui-bg_glass_100_f6f6f6_1x400.png", auto_decompress=true}
     })
