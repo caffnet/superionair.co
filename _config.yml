@@ -14,11 +14,11 @@ inc:
   
   # Test 
   testing: 
-  - url: https://d.SuperionAir.co
+  - url: http://www.distilnetworks.com/
     text:      "Distil Networks"
-  - url: https://f.SuperionAir.co
+  - url: http://www.f5.com
     text:	"F5 Networks"
-  - url: https://i.SuperionAir.co
+  - url: http://www.imperva.com
     text:	"Imperva"
   
   # Comments
