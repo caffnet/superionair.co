@@ -172,7 +172,7 @@ author:
 
 <span class="firstLetter">A</span>utomation Anywhere was configured with the following:
 * Task #1
-{% image automation_anywhere_config.png}
+{% image automation_anywhere_config.png %}
 * Task #2
-{% image automation_anywhere_config2.png}
+{% image automation_anywhere_config2.png %}
 
