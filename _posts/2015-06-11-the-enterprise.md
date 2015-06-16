@@ -1,3 +1,4 @@
+
 ---
 layout: post
 title: The Enterprise
@@ -88,7 +89,7 @@ author:
     [+] Elapsed time: 00:04:19
 
 ### Webserver 
-The team at Superion Air decided to go ahead and rely on Nginx for their main webserving needs. Nginx is quick, compact and doesn't have the memory footprint of Apache. The nginx config is listed below and available [here]({% postfile superion-air-nginx.conf %}) 
+<span class="firstLetter">T</span>he team at Superion Air decided to go ahead and rely on Nginx for their main webserving needs. Nginx is quick, compact and doesn't have the memory footprint of Apache. The nginx config is listed below and available [here]({% postfile superion-air-nginx.conf %}) 
 
     user  nginx;
     worker_processes  1;
@@ -155,5 +156,7 @@ The team at Superion Air decided to go ahead and rely on Nginx for their main we
 
 
 ### Database Backend
-The backend database is served by a MySQL 
+<span class="firstLetter">T</span>he backend database is served by a MySQL database. 
+
+
 
