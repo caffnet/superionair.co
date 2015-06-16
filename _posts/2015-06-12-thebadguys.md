@@ -51,6 +51,7 @@ author:
 
 ###Test Case Scripts
 * <span class="firstLetter">S</span>cenario #1: Extreme load
+
     http.page_start("Page 1")
     local response = http.request_batch({
         {"GET", "https://$HOST"},
@@ -64,7 +65,7 @@ author:
     client.sleep(math.random(20, 40))
 
 * <span class="firstLetter">S</span>cenario #2: Failed Login Attempts
-    -- First, define a list with usernames and passwords 
+    
          local users = { 
              { username = 'joe', password = 'secret' }, 
              { username = 'bill', password = 'secret2' }, 
@@ -98,6 +99,7 @@ author:
          end 
 
 * <span class="firstLetter">S</span>cenario #3: Flight Searching 
+    
     http.request_batch({
     	{"GET", "https://$HOST/wp-content/themes/theme1770/images/datepicker_img/ui-bg_glass_100_f6f6f6_1x400.png", auto_decompress=true}
     })
@@ -147,11 +149,11 @@ author:
     client.sleep(math.random(20, 40))
 
 * Each test case was run through: 
-** default User Agent: LoadImpactRload/3.0.8 (Load Impact; http://loadimpact.com);
-** Chrome User Agent
-** From the US
-** From Sao Palo, Brazil
-** From Singapore
+  + default User Agent: LoadImpactRload/3.0.8 (Load Impact; http://loadimpact.com);
+  + Chrome User Agent
+  + From the US
+  + From Sao Palo, Brazil
+  + From Singapore
 
 
 
@@ -168,6 +170,7 @@ author:
 ###Commercial Application Configuration
 
 <span class="firstLetter">W</span>PScan was executed with the following:
+
     ./wpscan.rb -r -v --url $HOST --wordlist /usr/share/SecLists/Passwords/darkc0de.txt --username admin
 
 <span class="firstLetter">A</span>utomation Anywhere was configured with the following:
