@@ -36,6 +36,12 @@
         height:80px;
         display:table-cell;
     }
+    .sponsor div {
+	padding:22px 30px;
+	float:right;
+	height:80px;
+	display:table-cell;
+   }
     
     #navigation {
         padding-right:0;
@@ -88,4 +94,3 @@ body.nav-hidden {
         -webkit-transform: translate3d(0px, 0, 0px);
     }
 }
-
